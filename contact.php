@@ -6,19 +6,10 @@
 	<title>PHP WEB SITE</title>
 	<link rel="stylesheet" href="css/CssStyle.css">
 	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="images/gerb_logo.png" type="image/png">
 </head>
 <body class="contactBody">
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">IITU</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="index.php">Home</a>
-    <a class="p-2 text-dark" href="slideshows.php">Slideshows</a>
-    <a class="p-2 text-dark" href="registration.php">Registration</a>
-    <a class="p-2 text-dark" href="contact.php">Contact</a>
-  </nav>
-  <a class="btn btn-outline-primary" href="#">Sign in</a>
-</div>
-
+<?php include('navbar.php'); ?>
 	<div class="container">
 		<div class="row mt-5">
       		<div class="col-sm-12 ">

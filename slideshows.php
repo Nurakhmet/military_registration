@@ -10,30 +10,22 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   >
+    <link rel="shortcut icon" href="images/gerb_logo.png" type="image/png">
 
 </head>
 <body>
-	<div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom shadow-sm">
-  <h5 class="my-0 mr-md-auto font-weight-normal">IITU</h5>
-  <nav class="my-2 my-md-0 mr-md-3">
-    <a class="p-2 text-dark" href="index.php">Home</a>
-    <a class="p-2 text-dark" href="slideshows.php">Slideshows</a>
-    <a class="p-2 text-dark" href="registration.php">Registration</a>
-    <a class="p-2 text-dark" href="contact.php">Contact</a>
-  </nav>
-  <a class="btn btn-outline-primary" href="#">Sign in</a>
-</div>
-<div class="container text-center">
+<?php include('navbar.php'); ?>
+<div class="container mt-4 text-center">
     <div id="carousel" class="carousel slide d-inline-block">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="img-fluid" src="img/111.jpg" width="500" height="600" alt="...">
+                <img class="img-fluid" src="images/111.jpg" width="500" height="600" alt="...">
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="img/222.jpg" width="500" height="600" alt="...">
+                <img class="img-fluid" src="images/222.jpg" width="500" height="600" alt="...">
             </div>
             <div class="carousel-item">
-                <img class="img-fluid" src="img/333.jpg" width="500" height="600" alt="...">
+                <img class="img-fluid" src="images/333.jpg" width="500" height="600" alt="...">
             </div>
         </div>
     </div>
